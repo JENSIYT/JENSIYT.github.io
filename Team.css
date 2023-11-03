@@ -1,0 +1,57 @@
+/*Global Styles*/
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: url('./Preview.png')no-repeat center center fixed;
+    background-size: cover;
+}
+
+/*Styling Header*/
+
+header {
+    background-color: #ff9c00 ;
+    color: #ff0000;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+    nav ul li {
+        display: inline;
+        max-width: 0 10px;
+    }
+
+nav a {
+    text-decoration: none;
+    color: #ff0000;
+}
+
+/*Fotter Styling*/
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /*høyden til footer*/
+    line-height: 60px; /*Dem vertikale sentrering av tekst*/
+}
+
+    footer p {
+        margin: 0;
+    }
